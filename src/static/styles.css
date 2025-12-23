@@ -70,8 +70,42 @@ section h3 {
   color: #0066cc;
 }
 
-.activity-card p {
+/* Participants section styles */
+.participants-section {
+  margin-top: 12px;
+}
+
+.participants-section h5 {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #1a237e;
+  font-weight: 600;
+}
+
+/* Keep a bulleted list but make items look like neat chips/rows */
+.participants-list {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.participants-list li {
+  background-color: #eef2ff;
+  padding: 6px 10px;
+  border-radius: 8px;
   margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+  color: #1a237e;
+  border: 1px solid rgba(26, 35, 126, 0.06);
+}
+
+/* Fallback message when no participants */
+.no-participants {
+  font-style: italic;
+  color: #666;
+  margin-top: 8px;
 }
 
 .form-group {
